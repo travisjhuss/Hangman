@@ -1,0 +1,28 @@
+
+SERVER
+[ ] - app / express
+[ ] - variable (get) of random phrase
+[ ] - array of random phrases
+[ ] - post / function to check letter to phrase
+[ ] - history of guess array
+[ ] - GET of graphic wrong guesses
+
+CLIENT
+[ ] - button function for letter buttons
+[ ] - reset button (new phrase, clear history)
+[ ] - show letter history
+
+HTML
+[ ] - boilerplate
+[ ] - source jquery, js, css
+[ ] - buttons for each letter 
+[ ] - hangman graphic
+[ ] - area for phrase (blank lines)
+
+CSS
+[ ] - class settings for wrong answers
+
+
+VENDORS
+[ ] - add bootstrap
+[ ] - add jQuery
