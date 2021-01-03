@@ -2,8 +2,8 @@
 SERVER
 [x] - app / express
 [x] - server
-[ ] - variable (get) of random phrase
-[ ] - array of random phrases
+[x] - variable (get) of random movie
+[x] - array of random movie titles
 [ ] - post / function to check letter to phrase
 [ ] - history of guess array
 [ ] - GET of graphic wrong guesses

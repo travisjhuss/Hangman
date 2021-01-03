@@ -9,6 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // serve back static files
 app.use(express.static('server/public'));
 
+// array of movie titles
 let movieTitles = [
     'The Shining',
     'There Will Be Blood',
@@ -21,7 +22,14 @@ let movieTitles = [
     'The Avengers'
 ];
 
+// generate random movie to use in game
 let randomMovie = movieTitles[Math.floor(Math.random() * movieTitles.length)];
+
+// GET route for randomMovie
+app.get('/movie-title', (req, res) => {
+    console.log('in movie-title');
+    res.send(randomMovie);
+  }) // end GET
 
 console.log(randomMovie);
 
