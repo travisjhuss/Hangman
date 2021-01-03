@@ -1,6 +1,7 @@
 
 SERVER
-[ ] - app / express
+[x] - app / express
+[x] - server
 [ ] - variable (get) of random phrase
 [ ] - array of random phrases
 [ ] - post / function to check letter to phrase
@@ -13,8 +14,8 @@ CLIENT
 [ ] - show letter history
 
 HTML
-[ ] - boilerplate
-[ ] - source jquery, js, css
+[x] - boilerplate
+[x] - source jquery, js, css
 [ ] - buttons for each letter 
 [ ] - hangman graphic
 [ ] - area for phrase (blank lines)
@@ -24,5 +25,5 @@ CSS
 
 
 VENDORS
-[ ] - add bootstrap
-[ ] - add jQuery
+[x] - add bootstrap
+[x] - add jQuery
