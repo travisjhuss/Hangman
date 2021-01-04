@@ -10,11 +10,8 @@ function startGame() {
         url: '/movie-title',
         type: 'GET'
     }).then(function (response){
-        console.log(response);
-        const space = '_ ';
-        let blankSpaceLength = response.length;
-        // append to DOM
-        $('#movie-title').empty().append(space.repeat(blankSpaceLength));
+        $('#movie-title').empty().append(response);
+        
     }) // end ajax
 
 } // end startGame
